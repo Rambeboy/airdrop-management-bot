@@ -38,7 +38,7 @@ A Telegram bot for managing airdrop campaigns, wallet addresses, and reminders. 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Rambeboy/telegram-airdrop-bot.git && cd telegram-airdrop-bot
+git clone https://github.com/Rambeboy/airdrop-management-bot.git && cd airdrop-management-bot
 ```
 
 2. Install dependencies:
