@@ -7,7 +7,7 @@ export const getMainKeyboard = () => {
             Markup.button.callback('💳 ADD WALLET', 'add_wallet')
         ],
         [
-            Markup.button.callback('🗑 Delete Wallet', 'delete_wallet'),
+            Markup.button.callback('🗑 DELETE WALLET', 'delete_wallet'),
             Markup.button.callback('📋 LIST WALLET ADDRESS', 'list_wallet')
         ],
         [
@@ -15,7 +15,7 @@ export const getMainKeyboard = () => {
             Markup.button.callback('⏰ REMINDER LIST', 'reminder_lst')
         ],
         [
-            Markup.button.callback('⚙️ Reminder Sett', 'reminder_sett'),
+            Markup.button.callback('⚙️ REMINDER SETT', 'reminder_sett'),
             Markup.button.callback('⏹ STOP REMINDER', 'stop_reminder')
         ],
         [
