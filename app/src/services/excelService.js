@@ -1,6 +1,7 @@
-import { Workbook } from 'exceljs';
+import exceljs from 'exceljs';
+const { Workbook } = exceljs;
 import fs from 'fs';
-import { COLUMN_WIDTH, EXCEL_FILE } from '../../config/config.js';
+import { COLUMN_WIDTH, EXCEL_FILE } from '../config/constants.js';
 
 export const getWorkbook = async () => {
     try {
