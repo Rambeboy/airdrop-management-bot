@@ -1,0 +1,11 @@
+node_modules
+package-lock.json
+accounts/accounts.js
+config/config.js
+app/accounts.js*
+app/config.js*
+.DS_Store
+build-config.json
+/index.js
+/src
+test.js
