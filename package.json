@@ -6,16 +6,16 @@
   "main": "index.js",
   "scripts": {
     "start": "node scripts/start.js",
+    "dev": "nodemon app/index.js",
     "setup": "node scripts/setup.js",
-    "dev": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf app && javascript-obfuscator --config build-config.json"
+    "build": "javascript-obfuscator app --output dist --config build-config.json"
   },
   "keywords": [
     "telegram",
     "bot",
     "airdrop",
-    "saved-list"
+    "crypto"
   ],
   "author": "Nofan Rambe",
   "license": "ISC",
@@ -23,6 +23,11 @@
     "exceljs": "^4.4.0",
     "telegraf": "^4.12.2",
     "axios": "^1.6.2",
-    "node-schedule": "^2.1.1"
+    "node-schedule": "^2.1.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "javascript-obfuscator": "^4.0.0"
   },
 }
