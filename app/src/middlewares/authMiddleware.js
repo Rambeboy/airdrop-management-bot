@@ -1,4 +1,4 @@
-import { accounts } from '../../config/config.js';
+import { accounts } from '../../accounts/accounts.js';
 
 export const restricted = (handler) => {
     return async (ctx, next) => {
